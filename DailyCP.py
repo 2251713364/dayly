@@ -214,8 +214,8 @@ class DailyCP:
             "form": rows,
             "address": address,
             "uaIsCpadaily":True,
-            'latitude': 0.0,
-            'longitude': 0.0
+            'latitude': 39.619574,
+            'longitude': 113.483791
         }
         ret = self.request(
             "https://{host}/wec-counselor-collector-apps/stu/collector/submitForm", body)
