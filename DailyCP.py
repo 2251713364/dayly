@@ -294,7 +294,7 @@ if __name__ == "__main__":
     if not app.login(sys.argv[2], sys.argv[3]):
         exit()
     app.autoComplete(sys.argv[4], sys.argv[5])
-
+    print(time.time())
 # Author:HuangXu,FengXinYang,ZhouYuYang.
 # By:AUST HACKER
 
